@@ -1,0 +1,13 @@
+{
+    "functions": {
+      "api/updateProducts.js": {
+        "memory": 1024
+      }
+    },
+    "crons": [
+      {
+        "path": "/api/updateProducts",
+        "schedule": "0 0 * * *"
+      }
+    ]
+  }
